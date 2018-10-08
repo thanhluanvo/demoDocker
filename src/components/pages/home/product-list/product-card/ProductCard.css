@@ -1,0 +1,24 @@
+.ProductCard {
+  width: calc(100% / 5);
+  padding: 10px; }
+  .ProductCard:hover {
+    cursor: pointer; }
+  .ProductCard .ProductCardContainer {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 6px -6px black;
+    border: 1px solid #ccc;
+    padding: 10px; }
+    .ProductCard .ProductCardContainer .ProductImg {
+      width: 100%; }
+      .ProductCard .ProductCardContainer .ProductImg img {
+        width: 100%;
+        height: 200px; }
+    .ProductCard .ProductCardContainer .ProductTitle {
+      display: flex; }
+      .ProductCard .ProductCardContainer .ProductTitle span {
+        font-size: 16px;
+        font-weight: 900; }
+    .ProductCard .ProductCardContainer .ProductDesc {
+      display: flex;
+      padding-top: 10px; }

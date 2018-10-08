@@ -1,0 +1,32 @@
+.ProductCard {
+    width: calc(100% / 5);
+    padding: 10px;
+    &:hover {
+        cursor: pointer;
+    }
+    .ProductCardContainer {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 0 8px 6px -6px black;
+        border: 1px solid #ccc;
+        padding: 10px;
+        .ProductImg {
+            width: 100%;
+            img {
+                width: 100%;
+                height: 200px;
+            }
+        }
+        .ProductTitle {
+            display: flex;
+            span {
+                font-size: 16px;
+                font-weight: 900;
+            }
+        }
+        .ProductDesc {
+            display: flex;
+            padding-top: 10px;
+        }
+    }
+}
