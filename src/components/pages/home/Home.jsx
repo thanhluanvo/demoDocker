@@ -5,7 +5,7 @@ import ProductList from './product-list/ProductList';
 class Home extends Component {
     render() {
         return(
-            <div className="HomePage">
+            <div className="HomePage_Luan">
                 <ProductList/>
             </div>
         );
